@@ -23,7 +23,7 @@ def generate_launch_description():
                 {'cell_size': 0.2},  # meters
                 {'length_x': 40.0},  # meters
                 {'length_y': 40.0},  # meters
-                {'frame_out': 'base_link'},
+                {'frame_out': 'feet_center'},
                 {'mapi_topic_name': 'intensity_grid'},
                 {'maph_topic_name': 'height_grid'},
                 {'search_length': 10.0}, # meters
